@@ -1,13 +1,13 @@
 <?php
 
 class Parameter{
-    public static $tinggi = 8.9;
-    public static $Alas   = 14.7;
+    static $tinggi = 8.9;
+    static $Alas   = 14.7;
 
-    public static function T(){
+    static function T(){
         echo Parameter::$tinggi;
     }
-    public static function A(){
+    static function A(){
         echo Parameter::$Alas;
     }
 }
